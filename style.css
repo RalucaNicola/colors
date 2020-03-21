@@ -1,0 +1,115 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Playfair Display', serif;
+  line-height: 2em;
+  color: rgb(60, 60, 60);
+}
+
+button {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  background: none;
+  border: none;
+  border-bottom: 1px dashed rgb(100, 100, 100);
+  margin: 5px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed rgb(100, 100, 100);
+  color: rgb(60, 60, 60);
+}
+
+.center {
+  text-align: center;
+}
+
+.slider {
+  width: 310px;
+}
+
+.slider-menu, .color-menu {
+  display: flex;
+  justify-content: center;
+}
+.slider-menu {
+  flex-wrap: wrap;
+}
+
+.canvas-component {
+  margin-bottom: -2em;
+  z-index: -1;
+  position: relative;
+  border-radius: 5px 5px 0 0;
+}
+
+input.range-component {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 300px;
+  height: 1px;
+  background: rgb(100, 100, 100);
+  margin: 0;
+  outline: none;
+}
+
+input.range-component::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(100, 100, 100);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input.range-component::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid rgb(100, 100, 100);
+  cursor: pointer;
+}
+
+.color-box {
+  height: 100px;
+  width: 150px;
+  margin: 10px;
+  border: 1px solid rgb(100, 100, 100);
+}
+
+.colorSeparator {
+  width: 0;
+  height: 100px;
+  margin: 10px;
+  border: 0.5px dashed rgb(100, 100, 100);
+}
+
+.answers-menu {
+  padding: 20px 0;
+}
+
+.font {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+}
+
+.description-image {
+  display: block;
+  max-height: 250px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-bottom: 0;
+}
