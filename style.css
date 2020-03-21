@@ -1,9 +1,18 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
   font-family: 'Playfair Display', serif;
   line-height: 2em;
   color: rgb(60, 60, 60);
+  padding: 5px;
 }
 
 button {
