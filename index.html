@@ -16,29 +16,31 @@
     <h1 class="center">Color theory and exercises</h1>
     <p>HSL is an alternative representation of the RGB color model and it was created to
       align better with the way humans perceive colors. Let's take the color red for example:
-      <span class="font" style="background-color:hsl(360, 100%,50%)"></span>. Red is <code>[255, 255, 255]</code>
+      <span class="font" style="background-color:hsl(360, 100%,50%)"></span>. Red is <code>[255, 0, 0]</code>
       in RBG space. If you wanted to change it to light red <span class="font"
         style="background-color:hsl(360, 100%,79%)"></span>
       it would be hard to figure out how to change it in RGB. However, with hsl, you just have to increase the
-      <code>lightness</code> value.
+      <code></code>lightness</code> value from <code>50%</code> to <code>75%</code>.
     </p>
     <p>So what do the hue, saturation and lightness values mean? </p>
     <p>
-      <b>Hue maps</b> the colors on a scale from 0 to 360 based on the <a
-        href="https://en.wikipedia.org/wiki/Color_wheel" target="_blank">color wheel</a>:
+      <b>Hue</b> maps the colors on a scale from <code>0</code> to <code>360</code> based on the <a
+        href="https://en.wikipedia.org/wiki/Color_wheel" target="_blank">color wheel</a>. So for example, if we
+      want to use orange, the hue value would be <code>30</code>.
     </p>
     <img class="description-image" src="color-wheel.png">
     <p>
       <b>Saturation</b> shows how much the color differs from neutral gray in the color space. It ranges
-      from <code>0%</code> for fully desaturated to <code>100%</code> for a pure color. Saturated colors
-      are also called bright colors. So we brighten the color by increasing the saturation.
+      from <code>0%</code> for fully desaturated to <code>100%</code> for a pure or bright color. When we decrease
+      the saturation, we add the amount of gray in the color. This is also called toning the color.
     </p>
     <img class="description-image" src="saturation.png">
     <p>
       <b>Lightness</b> indicates the level of illumination. It ranges from <code>0%</code> for black (no light)
       to <code>100%</code> for full illumination that washes out the hue, so it appears white. Shading is the
-      process of reducing the level of light below 50% (basically adding black or darkening the color). Increasing
-      the level of light above 50% is called tinting (and it basically adds white to a color to lighten it up).
+      process of reducing the level of light below <code>50%</code> (basically adding black or darkening the color).
+      Increasing the level of light above <code>50%</code> is called tinting (and it basically adds white to a color to
+      lighten it up).
     </p>
     <img class="description-image" src="lightness.png">
     <div>

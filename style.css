@@ -12,7 +12,7 @@ html, body {
   font-family: 'Playfair Display', serif;
   line-height: 2em;
   color: rgb(60, 60, 60);
-  padding: 5px;
+  padding: 1em;
 }
 
 button {
@@ -115,7 +115,7 @@ input.range-component::-moz-range-thumb {
 .description-image {
   display: block;
   max-height: 250px;
-  max-width: 250px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
